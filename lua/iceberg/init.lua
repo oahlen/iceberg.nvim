@@ -247,7 +247,15 @@ local function set_hl_groups()
         xmlEndTag = { link = "Statement" },
         xmlNamespace = { link = "Statement" },
         xmlTag = { link = "Statement" },
-        xmlTagName = { link = "Statement" }
+        xmlTagName = { link = "Statement" },
+
+        -- LSP
+        ["@lsp.type.decorator"] = { link = "Special" }, -- Function
+        ["@lsp.type.function"] = { link = "@function" }, -- Function
+        ["@lsp.type.method"] = { link = "@method" }, -- Function
+        ["@lsp.type.parameter"] = { link = "@parameter" }, -- Identifier
+        ["@lsp.type.property"] = { link = "@property" }, -- Identifier
+        ["@lsp.type.variable"] = { link = "icebergNormalFg" }, -- Identifier
     }
 
     for group, parameters in pairs(groups) do
