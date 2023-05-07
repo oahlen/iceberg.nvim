@@ -22,4 +22,3 @@ Specific highlights for:
 * [nvim tree](https://github.com/nvim-tree/nvim-tree.lua)
 * [leap.nvim](https://github.com/ggandor/leap.nvim)
 * [indent blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
-* [mason](https://github.com/williamboman/mason.nvim)
