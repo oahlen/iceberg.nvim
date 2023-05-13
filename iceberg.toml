@@ -79,7 +79,7 @@ tablinesel_fg = "mix(normal_fg, normal_bg, 0.75)"
 todo_bg       = "green_tint_bg"
 todo_fg       = "green"
 visual_bg     = "adjust(normal_bg, 0.05, 0.10)"
-whitespace_fg = "adust(normal_bg, 0.08, 0.09)"
+whitespace_fg = "adjust(normal_bg, 0.08, 0.09)"
 wildmenu_bg   = "lighten(statusline_bg, 0.30)"
 wildmenu_fg   = "statusline_fg"
 
@@ -148,7 +148,7 @@ Title            = "orange"
 Todo             = "todo_fg todo_bg"
 Type             = "blue"
 Underlined       = "blue - u"
-VerSplit         = "statuslinenc_bg statuslinenc_bg"
+VertSplit        = "statuslinenc_bg statuslinenc_bg"
 Visual           = "- visual_bg"
 VisualNOS        = "- visual_bg"
 WildMenu         = "wildmenu_fg wildmenu_bg"
@@ -297,7 +297,7 @@ ToolbarLine   = "link:TabLineFill"
 
 # language specific highlights
 "@field.yaml"    = "link:Statement"
-"@label.son"     = "link:Statement"
+"@label.json"    = "link:Statement"
 "@property.toml" = "link:Statement"
 
 # lsp semantic highlighting
