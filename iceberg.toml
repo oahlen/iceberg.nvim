@@ -83,6 +83,11 @@ whitespace_fg = "adjust(normal_bg, 0.08, 0.09)"
 wildmenu_bg   = "lighten(statusline_bg, 0.30)"
 wildmenu_fg   = "statusline_fg"
 
+search_alt_1_bg = "hsl($hue_green, 0.32, 0.65)" 
+search_alt_1_fg = "hsl($hue_green, 0.50, 0.15)" 
+search_alt_2_bg = "hsl($hue_purple, 0.32, 0.70)" 
+search_alt_2_fg = "hsl($hue_purple, 0.50, 0.15)" 
+
 [highlights]
 Normal           = "normal_fg normal_bg"
 ColorColumn      = "- cursorline_bg"
@@ -233,9 +238,9 @@ TelescopePromptCounter  = "linenr_fg"
 NvimTreeFolderIcon   = "link:Directory"
 NvimTreeIndentMarker = "link:Directory"
 
-LeapMatch = { bg = "#e2a478", fg = "#1e2132", bold = true },
-LeapLabelPrimary = { bg = "#b4be82", fg = "#1e2132", bold = true },
-LeapLabelSecondary = { bg = "#a093c7", fg = "#1e2132", bold = true },
+LeapMatch          = "search_fg search_bg b"
+LeapLabelPrimary   = "search_alt_1_fg search_alt_1_bg b"
+LeapLabelSecondary = "search_alt_2_fg search_alt_2_bg b"
 
 IndentBlanklineChar        = "link:NonText"
 IndentBlanklineContextChar = "linenr_fg"
