@@ -178,8 +178,7 @@ local function set_hl_groups()
         LeapLabelPrimary = { bg = "#b4be82", fg = "#1e2132", bold = true },
         LeapLabelSecondary = { bg = "#a093c7", fg = "#1e2132", bold = true },
 
-        IndentBlanklineChar = { link = "NonText" },
-        IndentBlanklineContextChar = { fg = "#444b71" },
+        IblScope = { fg = "#444b71" },
 
         TermCursor = { link = "Cursor" },
         ToolbarButton = { link = "TabLineSel" },
