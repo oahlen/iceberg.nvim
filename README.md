@@ -25,7 +25,7 @@ Specific highlights for:
 
 ## Development
 
-The repository contains a Nix Flake for setting up a development environment with (huey)[https://github.com/oahlen/huey]
+The repository contains a Nix Flake for setting up a development environment with [huey](https://github.com/oahlen/huey)
 available. With a flake enabled nix installation enter the environment like this:
 
 ```bash
