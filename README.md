@@ -22,3 +22,18 @@ Specific highlights for:
 * [nvim tree](https://github.com/nvim-tree/nvim-tree.lua)
 * [leap.nvim](https://github.com/ggandor/leap.nvim)
 * [indent blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
+
+## Development
+
+The repository contains a Nix Flake for setting up a development environment with (huey)[https://github.com/oahlen/huey]
+available. With a flake enabled nix installation enter the environment like this:
+
+```bash
+nix develop
+```
+
+Then generate the lua color scheme like so:
+
+```bash
+huey iceberg.toml .
+```
