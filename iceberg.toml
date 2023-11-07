@@ -243,8 +243,8 @@ LeapMatch          = "search_fg search_bg b"
 LeapLabelPrimary   = "search_alt_1_fg search_alt_1_bg b"
 LeapLabelSecondary = "search_alt_2_fg search_alt_2_bg b"
 
-IndentBlanklineChar        = "link:NonText"
-IndentBlanklineContextChar = "linenr_fg"
+IblWhitespace = "link:NonText"
+IblScope      = "linenr_fg"
 
 TermCursor    = "link:Cursor"
 ToolbarButton = "link:TabLineSel"
