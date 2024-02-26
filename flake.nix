@@ -24,7 +24,7 @@
     in {
       packages.default = pkgs.vimUtils.buildVimPlugin {
         pname = "iceberg-nvim";
-        version = "1.0.1";
+        version = "1.1.0";
         src = ./.;
         meta.homepage = "https://github.com/oahlen/iceberg.nvim/";
       };
