@@ -240,6 +240,8 @@ NvimTreeFolderIcon   = "link:Directory"
 NvimTreeIndentMarker = "link:Directory"
 NvimTreeWindowPicker = "search_fg search_bg b"
 
+GitSignsCurrentLineBlame = "linenr_fg"
+
 LeapMatch          = "search_fg search_bg b"
 LeapLabelPrimary   = "search_alt_1_fg search_alt_1_bg b"
 LeapLabelSecondary = "search_alt_2_fg search_alt_2_bg b"
