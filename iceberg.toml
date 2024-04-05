@@ -239,6 +239,12 @@ TelescopePromptCounter  = "linenr_fg"
 NvimTreeFolderIcon   = "link:Directory"
 NvimTreeIndentMarker = "link:Directory"
 NvimTreeWindowPicker = "search_fg search_bg b"
+NvimTreeRootFolder   = "link:Constant"
+NvimTreeSpecialFile  = "link:Title"
+NvimTreeExecFile     = "link:Special"
+NvimTreeDeletedIcon  = "red"
+NvimTreeGitMergeIcon = "orange"
+NvimTreeGitDirtyIcon = "red"
 
 GitSignsCurrentLineBlame = "linenr_fg"
 
