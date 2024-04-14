@@ -311,8 +311,8 @@ ToolbarLine   = "link:TabLineFill"
 "@variable"              = "link:icebergNormalFg"
 
 # language specific highlights
-"@field.yaml"    = "link:Statement"
-"@label.json"    = "link:Statement"
+"@property.yaml" = "link:Statement"
+"@property.json" = "link:Statement"
 "@property.toml" = "link:Statement"
 
 # lsp semantic highlighting
