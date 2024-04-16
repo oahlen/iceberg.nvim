@@ -14,6 +14,7 @@ All credits go to Hiroki Kokubun [cocopon](https://github.com/cocopon) for creat
 * Small, fast and simple
 * No configuration
 * [lualine](https://github.com/nvim-lualine/lualine.nvim) theme
+* Includes light and dark variants
 
 Specific highlights for:
 
@@ -36,4 +37,5 @@ Then generate the lua color scheme like so:
 
 ```bash
 huey iceberg.toml .
+huey iceberg-light.toml .
 ```
