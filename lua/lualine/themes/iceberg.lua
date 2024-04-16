@@ -21,7 +21,7 @@ if vim.o.background == "light" then
             c = { bg = "#cad0de", fg = "#8b98b6" }
         },
         command = {
-            a = { bg = "#a093c7", fg = "#e8e9ec" },
+            a = { bg = "#7759b4", fg = "#e8e9ec" },
             b = { bg = "#9fa6c0", fg = "#e8e9ec" },
             c = { bg = "#cad0de", fg = "#8b98b6" }
         },
