@@ -1,5 +1,26 @@
 local M = {}
 
+local function set_globals()
+    vim.g.terminal_color_0 = "#dddfe9"
+    vim.g.terminal_color_1 = "#cd517a"
+    vim.g.terminal_color_2 = "#668f3d"
+    vim.g.terminal_color_3 = "#c67439"
+    vim.g.terminal_color_4 = "#2e539e"
+    vim.g.terminal_color_5 = "#785ab5"
+    vim.g.terminal_color_6 = "#3f84a6"
+    vim.g.terminal_color_7 = "#33374d"
+    vim.g.terminal_color_8 = "#8489a4"
+    vim.g.terminal_color_9 = "#cd3769"
+    vim.g.terminal_color_10 = "#598131"
+    vim.g.terminal_color_11 = "#b8672e"
+    vim.g.terminal_color_12 = "#24478f"
+    vim.g.terminal_color_13 = "#6946af"
+    vim.g.terminal_color_14 = "#337799"
+    vim.g.terminal_color_15 = "#262b40"
+    vim.g.terminal_color_background = "#e9e9ed"
+    vim.g.terminal_color_foreground = "#33374d"
+end
+
 local function set_hl_groups()
     local hl = vim.api.nvim_set_hl
 
@@ -233,6 +254,7 @@ function M.init()
     vim.o.termguicolors = true
     vim.g.colors_name = "iceberg-light"
 
+    set_globals()
     set_hl_groups()
 end
 
