@@ -313,6 +313,13 @@ ToolbarLine   = "link:TabLineFill"
 "@property.json" = "link:Statement"
 "@property.toml" = "link:Statement"
 
+markdownH1Delimiter   = "link:Special"
+markdownH2Delimiter   = "link:Special"
+markdownH3Delimiter   = "link:Special"
+markdownH4Delimiter   = "link:Special"
+markdownH5Delimiter   = "link:Special"
+markdownCodeDelimiter = "link:Special"
+
 # lsp semantic highlighting
 "@lsp.type.decorator" = "link:Special"
 "@lsp.type.function"  = "link:@function"
