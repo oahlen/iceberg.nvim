@@ -2,7 +2,7 @@
   description = "Bluish color scheme for Neovim";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/release-23.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/release-24.05";
     huey = {
       url = "github:oahlen/huey";
       inputs = {
