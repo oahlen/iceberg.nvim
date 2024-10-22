@@ -322,6 +322,7 @@ markdownH2Delimiter   = "link:Special"
 markdownH3Delimiter   = "link:Special"
 markdownH4Delimiter   = "link:Special"
 markdownH5Delimiter   = "link:Special"
+markdownH6Delimiter   = "link:Special"
 markdownCodeDelimiter = "link:Special"
 markdownCode          = "link:String"
 
