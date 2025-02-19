@@ -335,12 +335,12 @@ xmlTag         = "link:Statement"
 xmlTagName     = "link:Statement"
 
 # meta colors
-red    = "red"
-green  = "green"
-orange = "orange"
-blue   = "blue"
-purple = "purple"
-cyan   = "cyan"
+Red    = "red"
+Green  = "green"
+Orange = "orange"
+Blue   = "blue"
+Purple = "purple"
+Cyan   = "cyan"
 
 [globals]
 terminal_color_0          = "cursorline_bg"
