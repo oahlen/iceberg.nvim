@@ -49,10 +49,10 @@ difftext_bg = "mix(cyan, normal_bg, 0.35)"
 difftext_fg = "normal_fg"
 
 # statusline
-statusline_bg   = "cursorlinenr_bg"
-statusline_fg   = "hsl($hue_base, 0.20, 0.55)"
+statusline_bg   = "hsl($hue_base, 0.20, 0.55)"
+statusline_fg   = "normal_bg"
 statuslinenc_bg = "cursorlinenr_bg"
-statuslinenc_fg = "darken(cursorlinenr_bg, 0.20)"
+statuslinenc_fg = "darken(statuslinenc_bg, 0.20)"
 
 # pmenu
 pmenu_bg    = "cursorlinenr_bg"
@@ -137,7 +137,7 @@ StatusLineTermNC = "statuslinenc_fg statuslinenc_bg"
 StorageClass     = "blue"
 String           = "cyan"
 Structure        = "blue"
-TabLine          = "statuslinenc_fg statuslinenc_bg"
+TabLine          = "statusline_bg cursorline_bg"
 TabLineFill      = "statuslinenc_fg statuslinenc_bg"
 TabLineSel       = "statusline_fg statusline_bg"
 TermCursorNC     = "normal_bg comment_fg"
