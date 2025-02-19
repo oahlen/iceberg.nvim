@@ -334,6 +334,14 @@ xmlNamespace   = "link:Statement"
 xmlTag         = "link:Statement"
 xmlTagName     = "link:Statement"
 
+# meta colors
+red    = "red"
+green  = "green"
+orange = "orange"
+blue   = "blue"
+purple = "purple"
+cyan   = "cyan"
+
 [globals]
 terminal_color_0          = "cursorline_bg"
 terminal_color_1          = "red"

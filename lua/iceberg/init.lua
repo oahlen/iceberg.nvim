@@ -250,6 +250,12 @@ local function set_hl_groups()
     hl(0, "xmlNamespace", { link = "Statement" })
     hl(0, "xmlTag", { link = "Statement" })
     hl(0, "xmlTagName", { link = "Statement" })
+    hl(0, "red", { fg = "#e27878", bg = "NONE" })
+    hl(0, "green", { fg = "#b5bf82", bg = "NONE" })
+    hl(0, "orange", { fg = "#e2a578", bg = "NONE" })
+    hl(0, "blue", { fg = "#85a0c7", bg = "NONE" })
+    hl(0, "purple", { fg = "#a093c8", bg = "NONE" })
+    hl(0, "cyan", { fg = "#89b9c2", bg = "NONE" })
 end
 
 function M.init()
