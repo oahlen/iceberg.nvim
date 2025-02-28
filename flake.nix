@@ -24,13 +24,6 @@
     flake-utils.lib.eachDefaultSystem (system: let
       pkgs = import nixpkgs {inherit system;};
     in {
-      packages.default = pkgs.vimUtils.buildVimPlugin {
-        pname = "iceberg-nvim";
-        version = "1.1.0";
-        src = ./.;
-        meta.homepage = "https://github.com/oahlen/iceberg.nvim/";
-      };
-
       devShells.default = pkgs.mkShell {
         buildInputs = [
           huey.packages.${system}.default
