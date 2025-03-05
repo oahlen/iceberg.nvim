@@ -1,24 +1,13 @@
 {
   description = "Bluish color scheme for Neovim";
 
-  inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/release-24.11";
+  inputs.huey.url = "github:oahlen/huey";
 
-    huey = {
-      url = "github:oahlen/huey";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-  };
-
-  outputs = {
-    nixpkgs,
-    huey,
-    ...
-  }: let
+  outputs = {huey, ...}: let
     lib = import ./lib.nix {};
   in {
     devShells = lib.forEachDefaultSystem (system: let
-      pkgs = import nixpkgs {inherit system;};
+      pkgs = import huey.nixpkgs {inherit system;};
     in {
       default = pkgs.mkShell {
         buildInputs = [

@@ -37,17 +37,15 @@
       "inputs": {
         "crane": "crane",
         "flake-utils": "flake-utils",
-        "nixpkgs": [
-          "nixpkgs"
-        ],
+        "nixpkgs": "nixpkgs",
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1740075927,
-        "narHash": "sha256-VfWRxcU0JxARFIIe6FM4ZCZRxWQsU/flgbwz0mb4Ev8=",
+        "lastModified": 1741200863,
+        "narHash": "sha256-wWX4GoFjmgyx37N5iPipnaZ7UzbrwsZHh2me5N4bggw=",
         "owner": "oahlen",
         "repo": "huey",
-        "rev": "8dcbc7f101638abb2d650ff47d1965a5691a20a2",
+        "rev": "ed9e00878b23ad7987d40f718b62e60ec4b59549",
         "type": "github"
       },
       "original": {
@@ -58,11 +56,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1741181794,
-        "narHash": "sha256-KaY79mvudbMfufn3FW2Yzx/hiF848gj5y1rMjS/U8fA=",
+        "lastModified": 1740070409,
+        "narHash": "sha256-KPyQxtbVJfwLzHgg+h5zQnmjEl77AtRUzk2gDvjeyRU=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "bb1b98cea759f3739d88b1a6a0d379d61aaf5573",
+        "rev": "a47b881e04af1dd6d414618846407b2d6c759380",
         "type": "github"
       },
       "original": {
@@ -74,8 +72,7 @@
     },
     "root": {
       "inputs": {
-        "huey": "huey",
-        "nixpkgs": "nixpkgs"
+        "huey": "huey"
       }
     },
     "rust-overlay": {
