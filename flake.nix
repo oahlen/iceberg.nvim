@@ -6,28 +6,25 @@
 
     huey = {
       url = "github:oahlen/huey";
-      inputs = {
-        nixpkgs.follows = "nixpkgs";
-        flake-utils.follows = "flake-utils";
-      };
+      inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    flake-utils.url = "github:numtide/flake-utils";
   };
 
   outputs = {
     nixpkgs,
     huey,
-    flake-utils,
     ...
-  }:
-    flake-utils.lib.eachDefaultSystem (system: let
+  }: let
+    lib = import ./lib.nix {};
+  in {
+    devShells = lib.forEachDefaultSystem (system: let
       pkgs = import nixpkgs {inherit system;};
     in {
-      devShells.default = pkgs.mkShell {
+      default = pkgs.mkShell {
         buildInputs = [
           huey.packages.${system}.default
         ];
       };
     });
+  };
 }
