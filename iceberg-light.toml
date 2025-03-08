@@ -307,6 +307,7 @@ ToolbarLine   = "link:TabLineFill"
 "@variable"              = "link:icebergNormalFg"
 
 # language specific highlights
+"@operator.rust" = "link:Special"
 "@property.yaml" = "link:Statement"
 "@property.json" = "link:Statement"
 "@property.toml" = "link:Statement"
