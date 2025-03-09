@@ -1,1 +1,1 @@
-require("iceberg-light").init()
+require("iceberg").init("light")

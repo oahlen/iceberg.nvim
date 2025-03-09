@@ -1,27 +1,6 @@
 local M = {}
 
-local function set_globals()
-    vim.g.terminal_color_0 = "#dddfe9"
-    vim.g.terminal_color_1 = "#cd517a"
-    vim.g.terminal_color_2 = "#668f3d"
-    vim.g.terminal_color_3 = "#c67439"
-    vim.g.terminal_color_4 = "#2e539e"
-    vim.g.terminal_color_5 = "#785ab5"
-    vim.g.terminal_color_6 = "#3f84a6"
-    vim.g.terminal_color_7 = "#33374d"
-    vim.g.terminal_color_8 = "#8489a4"
-    vim.g.terminal_color_9 = "#cd3769"
-    vim.g.terminal_color_10 = "#598131"
-    vim.g.terminal_color_11 = "#b8672e"
-    vim.g.terminal_color_12 = "#24478f"
-    vim.g.terminal_color_13 = "#6946af"
-    vim.g.terminal_color_14 = "#337799"
-    vim.g.terminal_color_15 = "#262b40"
-    vim.g.terminal_color_background = "#e9e9ed"
-    vim.g.terminal_color_foreground = "#33374d"
-end
-
-local function set_hl_groups()
+function M.set_highlights()
     local hl = vim.api.nvim_set_hl
 
     hl(0, "Normal", { fg = "#33374d", bg = "#e9e9ed" })
@@ -229,6 +208,7 @@ local function set_hl_groups()
     hl(0, "@type.qualifier", { link = "Keyword" })
     hl(0, "@variable.builtin", { link = "Statement" })
     hl(0, "@variable", { link = "icebergNormalFg" })
+    hl(0, "@operator.rust", { link = "Special" })
     hl(0, "@property.yaml", { link = "Statement" })
     hl(0, "@property.json", { link = "Statement" })
     hl(0, "@property.toml", { link = "Statement" })
@@ -262,19 +242,25 @@ local function set_hl_groups()
     hl(0, "Cyan", { fg = "#3f84a6", bg = "NONE" })
 end
 
-function M.init()
-    vim.cmd("hi clear")
-
-    if vim.fn.exists("syntax_on") then
-        vim.cmd("syntax reset")
-    end
-
-    vim.o.background = "light"
-    vim.o.termguicolors = true
-    vim.g.colors_name = "iceberg-light"
-
-    set_globals()
-    set_hl_groups()
+function M.set_globals()
+    vim.g.terminal_color_0 = "#dddfe9"
+    vim.g.terminal_color_1 = "#cd517a"
+    vim.g.terminal_color_2 = "#668f3d"
+    vim.g.terminal_color_3 = "#c67439"
+    vim.g.terminal_color_4 = "#2e539e"
+    vim.g.terminal_color_5 = "#785ab5"
+    vim.g.terminal_color_6 = "#3f84a6"
+    vim.g.terminal_color_7 = "#33374d"
+    vim.g.terminal_color_8 = "#8489a4"
+    vim.g.terminal_color_9 = "#cd3769"
+    vim.g.terminal_color_10 = "#598131"
+    vim.g.terminal_color_11 = "#b8672e"
+    vim.g.terminal_color_12 = "#24478f"
+    vim.g.terminal_color_13 = "#6946af"
+    vim.g.terminal_color_14 = "#337799"
+    vim.g.terminal_color_15 = "#262b40"
+    vim.g.terminal_color_background = "#e9e9ed"
+    vim.g.terminal_color_foreground = "#33374d"
 end
 
 return M
