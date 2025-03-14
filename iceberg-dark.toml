@@ -26,10 +26,6 @@ pale   = "hsl($hue_pale, 0.28, 0.72)"
 normal_bg = "hsl($hue_base, 0.20, 0.11)"
 normal_fg = "hsl($hue_base, 0.10, 0.80)"
 
-# experimental colors
-pink = "hsl(330, 0.32, 0.68)"
-teal = "hsl(165, 0.32, 0.65)"
-
 # tint
 blue_tint_bg   = "mix(blue, normal_bg, 0.30)"
 blue_tint_fg   = "mix(blue, normal_fg, 0.30)"
